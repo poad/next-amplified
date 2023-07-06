@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@aws-amplify/ui-react':
-    specifier: ^5.0.3
-    version: 5.0.3(@types/react@18.2.14)(aws-amplify@5.3.3)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^5.0.4
+    version: 5.0.4(@types/react@18.2.14)(aws-amplify@5.3.3)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: ^20.4.0
     version: 20.4.0
@@ -317,8 +317,8 @@ packages:
       - '@xstate/fsm'
     dev: false
 
-  /@aws-amplify/ui-react@5.0.3(@types/react@18.2.14)(aws-amplify@5.3.3)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/YZA3suItiJ5uuMrjgCHA3gRihlhBJ8pXtAC4VDAC1SifF/bXXype+rCMrkrhNOBJ9fcJ1wo35nLiIB1ID0zZw==}
+  /@aws-amplify/ui-react@5.0.4(@types/react@18.2.14)(aws-amplify@5.3.3)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/XGAtytQ5gaCm6oxsnQYhkohLLGj3RX9932uobSK5jGCgsqsSyQTyCL4OgVAAYjU54hSK27oYTWltiFr5gIgzQ==}
     peerDependencies:
       aws-amplify: '>= 5.0.1'
       react: '>= 16.14.0'
@@ -3555,7 +3555,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.4(@babel/core@7.22.6)
       babel-plugin-polyfill-corejs3: 0.8.2(@babel/core@7.22.6)
       babel-plugin-polyfill-regenerator: 0.5.1(@babel/core@7.22.6)
-      core-js-compat: 3.31.0
+      core-js-compat: 3.31.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5243,7 +5243,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.6
       '@babel/helper-define-polyfill-provider': 0.4.1(@babel/core@7.22.6)
-      core-js-compat: 3.31.0
+      core-js-compat: 3.31.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5712,8 +5712,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /core-js-compat@3.31.0:
-    resolution: {integrity: sha512-hM7YCu1cU6Opx7MXNu0NuumM0ezNeAeRKadixyiQELWY3vT3De9S4J5ZBMraWV2vZnrE1Cirl0GtFtDtMUXzPw==}
+  /core-js-compat@3.31.1:
+    resolution: {integrity: sha512-wIDWd2s5/5aJSdpOJHfSibxNODxoGoWOBHt8JSPB41NOE94M7kuTPZCYLOlTtuoXTsBPKobpJ6T+y0SSy5L9SA==}
     dependencies:
       browserslist: 4.21.9
     dev: false
