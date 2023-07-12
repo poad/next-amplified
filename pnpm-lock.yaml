@@ -2263,8 +2263,8 @@ packages:
       lru-cache: 5.1.1
     dev: false
 
-  /@babel/helper-create-class-features-plugin@7.22.6(@babel/core@7.22.8):
-    resolution: {integrity: sha512-iwdzgtSiBxF6ni6mzVnZCF3xt5qE6cEA0J7nFt8QOAWZ0zjCFceEgpn3vtb2V7WFR6QzP2jmIFOHMTRo7eNJjQ==}
+  /@babel/helper-create-class-features-plugin@7.22.9(@babel/core@7.22.8):
+    resolution: {integrity: sha512-Pwyi89uO4YrGKxL/eNJ8lfEH55DnRloGPOseaA8NFNL6jAUnn+KccaISiFazCj5IolPPDjGSdzQzXVzODVRqUQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -2275,12 +2275,10 @@ packages:
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-member-expression-to-functions': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
-      '@babel/helper-replace-supers': 7.22.5
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
-      '@nicolo-ribaudo/semver-v6': 6.3.3
-    transitivePeerDependencies:
-      - supports-color
+      semver: 6.3.1
     dev: false
 
   /@babel/helper-create-regexp-features-plugin@7.22.6(@babel/core@7.22.8):
@@ -2387,18 +2385,16 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/helper-replace-supers@7.22.5:
-    resolution: {integrity: sha512-aLdNM5I3kdI/V9xGNyKSF3X/gTyMUBohTZ+/3QdQKAA9vxIiy12E+8E2HoOP1/DjeqU+g6as35QHJNMDDYpuCg==}
+  /@babel/helper-replace-supers@7.22.9(@babel/core@7.22.8):
+    resolution: {integrity: sha512-LJIKvvpgPOPUThdYqcX6IXRuIcTkcAub0IaDRGCZH0p5GPUp7PhRU9QVgFcDDd51BaPkk77ZjqFwh6DZTAEmGg==}
     engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
     dependencies:
+      '@babel/core': 7.22.8
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-member-expression-to-functions': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
-      '@babel/template': 7.22.5
-      '@babel/traverse': 7.22.8
-      '@babel/types': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/helper-simple-access@7.22.5:
@@ -2521,10 +2517,8 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-proposal-export-default-from@7.22.5(@babel/core@7.22.8):
@@ -2892,10 +2886,8 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-class-static-block@7.22.5(@babel/core@7.22.8):
@@ -2905,11 +2897,9 @@ packages:
       '@babel/core': ^7.12.0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.22.8)
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-classes@7.22.6(@babel/core@7.22.8):
@@ -2925,11 +2915,9 @@ packages:
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-replace-supers': 7.22.5
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-split-export-declaration': 7.22.6
       globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-computed-properties@7.22.5(@babel/core@7.22.8):
@@ -3202,9 +3190,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-replace-supers': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.8)
     dev: false
 
   /@babel/plugin-transform-optional-catch-binding@7.22.5(@babel/core@7.22.8):
@@ -3247,10 +3233,8 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-private-property-in-object@7.22.5(@babel/core@7.22.8):
@@ -3261,11 +3245,9 @@ packages:
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.22.8)
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-property-literals@7.22.5(@babel/core@7.22.8):
@@ -3419,11 +3401,9 @@ packages:
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.8)
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@babel/plugin-transform-unicode-escapes@7.22.5(@babel/core@7.22.8):
