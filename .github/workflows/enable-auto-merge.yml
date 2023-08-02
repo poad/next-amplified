@@ -2,8 +2,7 @@ name: enables auto merge
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 permissions:
   id-token: write
