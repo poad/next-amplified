@@ -3507,18 +3507,18 @@ packages:
       '@jest/types': 29.6.3
     dev: false
 
-  /@jest/environment@29.6.3:
-    resolution: {integrity: sha512-u/u3cCztYCfgBiGHsamqP5x+XvucftOGPbf5RJQxfpeC1y4AL8pCjKvPDA3oCmdhZYPgk5AE0VOD/flweR69WA==}
+  /@jest/environment@29.6.4:
+    resolution: {integrity: sha512-sQ0SULEjA1XUTHmkBRl7A1dyITM9yb1yb3ZNKPX3KlTd6IG7mWUe3e2yfExtC2Zz1Q+mMckOLHmL/qLiuQJrBQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/fake-timers': 29.6.3
+      '@jest/fake-timers': 29.6.4
       '@jest/types': 29.6.3
       '@types/node': 20.5.4
       jest-mock: 29.6.3
     dev: false
 
-  /@jest/fake-timers@29.6.3:
-    resolution: {integrity: sha512-pa1wmqvbj6eX0nMvOM2VDAWvJOI5A/Mk3l8O7n7EsAh71sMZblaKO9iT4GjIj0LwwK3CP/Jp1ypEV0x3m89RvA==}
+  /@jest/fake-timers@29.6.4:
+    resolution: {integrity: sha512-6UkCwzoBK60edXIIWb0/KWkuj7R7Qq91vVInOe3De6DSpaEiqjKcJw4F7XUet24Wupahj9J6PlR09JqJ5ySDHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
@@ -6928,12 +6928,12 @@ packages:
       reflect.getprototypeof: 1.0.3
     dev: false
 
-  /jest-environment-node@29.6.3:
-    resolution: {integrity: sha512-PKl7upfPJXMYbWpD+60o4HP86KvFO2c9dZ+Zr6wUzsG5xcPx/65o3ArNgHW5M0RFvLYdW4/aieR4JSooD0a2ew==}
+  /jest-environment-node@29.6.4:
+    resolution: {integrity: sha512-i7SbpH2dEIFGNmxGCpSc2w9cA4qVD+wfvg2ZnfQ7XVrKL0NA5uDVBIiGH8SR4F0dKEv/0qI5r+aDomDf04DpEQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/environment': 29.6.3
-      '@jest/fake-timers': 29.6.3
+      '@jest/environment': 29.6.4
+      '@jest/fake-timers': 29.6.4
       '@jest/types': 29.6.3
       '@types/node': 20.5.4
       jest-mock: 29.6.3
@@ -8443,7 +8443,7 @@ packages:
       event-target-shim: 5.0.1
       flow-enums-runtime: 0.0.5
       invariant: 2.2.4
-      jest-environment-node: 29.6.3
+      jest-environment-node: 29.6.4
       jsc-android: 250231.0.0
       memoize-one: 5.2.1
       metro-runtime: 0.76.8
