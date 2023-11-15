@@ -3117,8 +3117,8 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/plugin-transform-shorthand-properties@7.22.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-vM4fq9IXHscXVKzDv5itkO1X52SmdFBFcMIBZ2FRn2nqVYqw6dBexUgMvAjHW+KXpPPViD/Yo3GrDEBaRC0QYA==}
+  /@babel/plugin-transform-shorthand-properties@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-ED2fgqZLmexWiN+YNFX26fx4gh5qHDhn1O2gvEhreLW2iI63Sqm4llRLCXALKrCnbN4Jy0VcMQZl/SAzqug/jg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -3295,7 +3295,7 @@ packages:
       '@babel/plugin-transform-property-literals': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-regenerator': 7.22.10(@babel/core@7.23.2)
       '@babel/plugin-transform-reserved-words': 7.22.5(@babel/core@7.23.2)
-      '@babel/plugin-transform-shorthand-properties': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-transform-shorthand-properties': 7.23.3(@babel/core@7.23.2)
       '@babel/plugin-transform-spread': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-sticky-regex': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-template-literals': 7.22.5(@babel/core@7.23.2)
@@ -5078,7 +5078,7 @@ packages:
       '@babel/plugin-transform-property-literals': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-react-display-name': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.2)
-      '@babel/plugin-transform-shorthand-properties': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-transform-shorthand-properties': 7.23.3(@babel/core@7.23.2)
       '@babel/plugin-transform-spread': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-template-literals': 7.22.5(@babel/core@7.23.2)
       babel-plugin-syntax-trailing-function-commas: 7.0.0-beta.0
@@ -7473,7 +7473,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-runtime': 7.23.2(@babel/core@7.23.2)
-      '@babel/plugin-transform-shorthand-properties': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-transform-shorthand-properties': 7.23.3(@babel/core@7.23.2)
       '@babel/plugin-transform-spread': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-sticky-regex': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-typescript': 7.22.15(@babel/core@7.23.2)
