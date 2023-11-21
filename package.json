@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.0.2",
-    "@types/node": "^20.9.2",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@aws-amplify/ui-react": "^6.0.3",
+    "@types/node": "^20.9.3",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.16",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "autoprefixer": "^10.4.16",
-    "aws-amplify": "^6.0.3",
+    "aws-amplify": "^6.0.4",
     "eslint": "^8.54.0",
     "eslint-config-next": "^14.0.3",
     "eslint-plugin-import": "^2.29.0",
