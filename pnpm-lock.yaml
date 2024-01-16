@@ -89,7 +89,7 @@ packages:
     dependencies:
       '@aws-amplify/api-rest': 4.0.12(@aws-amplify/core@6.0.12)
       '@aws-amplify/core': 6.0.12
-      '@aws-amplify/data-schema-types': 0.6.11
+      '@aws-amplify/data-schema-types': 0.6.12
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -138,8 +138,8 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/data-schema-types@0.6.11:
-    resolution: {integrity: sha512-vdpX7X9emYg7WcI/HzxKXKkCwo7scsNmYJC8Ao7NskXyv7+KIq/EsChhmsya1oTFpwGQh4cGr9FKgi1hL+8T3Q==}
+  /@aws-amplify/data-schema-types@0.6.12:
+    resolution: {integrity: sha512-0ZpWnN+UxrUHHyj9rtoz/wljo8PvvZYt1nxu7lR1HFFa2dQqYVHD4a8umMIi5pQBo4DfCOkITri18hmslzhBOw==}
     dependencies:
       rxjs: 7.8.1
     dev: false
@@ -2263,7 +2263,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001577
-      electron-to-chromium: 1.4.632
+      electron-to-chromium: 1.4.633
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: false
@@ -2536,8 +2536,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.632:
-    resolution: {integrity: sha512-JGmudTwg7yxMYvR/gWbalqqQiyu7WTFv2Xu3vw4cJHXPFxNgAk0oy8UHaer8nLF4lZJa+rNoj6GsrKIVJTV6Tw==}
+  /electron-to-chromium@1.4.633:
+    resolution: {integrity: sha512-7BvxzXrHFliyQ1oZc6NRMjyEaKOO1Ma1NY98sFZofogWlm+klLWSgrDw7EhatiMgi4R4NV+iWxDdxuIKXtPbOw==}
     dev: false
 
   /emoji-regex@8.0.0:
