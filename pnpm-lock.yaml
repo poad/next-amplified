@@ -9,8 +9,8 @@ dependencies:
     specifier: ^6.1.1
     version: 6.1.1(@types/react@18.2.48)(aws-amplify@6.0.12)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: ^20.11.4
-    version: 20.11.4
+    specifier: ^20.11.5
+    version: 20.11.5
   '@types/react':
     specifier: ^18.2.48
     version: 18.2.48
@@ -1816,8 +1816,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node@20.11.4:
-    resolution: {integrity: sha512-6I0fMH8Aoy2lOejL3s4LhyIYX34DPwY8bl5xlNjBvUEk8OHrcuzsFt+Ied4LvJihbtXPM+8zUqdydfIti86v9g==}
+  /@types/node@20.11.5:
+    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -2181,7 +2181,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.22.2
-      caniuse-lite: 1.0.30001577
+      caniuse-lite: 1.0.30001578
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2262,8 +2262,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001577
-      electron-to-chromium: 1.4.633
+      caniuse-lite: 1.0.30001578
+      electron-to-chromium: 1.4.634
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: false
@@ -2313,8 +2313,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001577:
-    resolution: {integrity: sha512-rs2ZygrG1PNXMfmncM0B5H1hndY5ZCC9b5TkFaVNfZ+AUlyqcMyVIQtc3fsezi0NUCk5XZfDf9WS6WxMxnfdrg==}
+  /caniuse-lite@1.0.30001578:
+    resolution: {integrity: sha512-J/jkFgsQ3NEl4w2lCoM9ZPxrD+FoBNJ7uJUpGVjIg/j0OwJosWM36EPDv+Yyi0V4twBk9pPmlFS+PLykgEvUmg==}
     dev: false
 
   /capital-case@1.0.4:
@@ -2536,8 +2536,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.633:
-    resolution: {integrity: sha512-7BvxzXrHFliyQ1oZc6NRMjyEaKOO1Ma1NY98sFZofogWlm+klLWSgrDw7EhatiMgi4R4NV+iWxDdxuIKXtPbOw==}
+  /electron-to-chromium@1.4.634:
+    resolution: {integrity: sha512-gQNahJfF5AE4MZo+pMSwmnwkzVZ+F4ZGGj4Z/MMddOXVQM0y9OHy6ts3W9SDzAJaiZM3p6eixn5ABCQ+AfXzcQ==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -3738,7 +3738,7 @@ packages:
       '@next/env': 14.0.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001577
+      caniuse-lite: 1.0.30001578
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
