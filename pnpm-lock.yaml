@@ -2609,7 +2609,7 @@ packages:
       typed-array-byte-offset: 1.0.0
       typed-array-length: 1.0.4
       unbox-primitive: 1.0.2
-      which-typed-array: 1.1.13
+      which-typed-array: 1.1.14
     dev: false
 
   /es-iterator-helpers@1.0.15:
@@ -3444,7 +3444,7 @@ packages:
     resolution: {integrity: sha512-Z14TF2JNG8Lss5/HMqt0//T9JeHXttXy5pH/DBU4vi98ozO2btxzq9MwYDZYnKwU8nRsz/+GVFVRDq3DkVuSPg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      which-typed-array: 1.1.13
+      which-typed-array: 1.1.14
     dev: false
 
   /is-weakmap@2.0.1:
@@ -4823,7 +4823,7 @@ packages:
       isarray: 2.0.5
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.1
-      which-typed-array: 1.1.13
+      which-typed-array: 1.1.14
     dev: false
 
   /which-collection@1.0.1:
@@ -4839,8 +4839,8 @@ packages:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
     dev: false
 
-  /which-typed-array@1.1.13:
-    resolution: {integrity: sha512-P5Nra0qjSncduVPEAr7xhoF5guty49ArDTwzJ/yNuPIbZppyRxFQsRCWrocxIY+CnMVG+qfbU2FmDKyvSGClow==}
+  /which-typed-array@1.1.14:
+    resolution: {integrity: sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==}
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.6
