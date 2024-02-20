@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@aws-amplify/ui-react':
     specifier: ^6.1.4
-    version: 6.1.4(@types/react@18.2.56)(aws-amplify@6.0.16)(react-dom@18.2.0)(react@18.2.0)
+    version: 6.1.4(@types/react@18.2.57)(aws-amplify@6.0.17)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: ^20.11.19
     version: 20.11.19
   '@types/react':
-    specifier: ^18.2.56
-    version: 18.2.56
+    specifier: ^18.2.57
+    version: 18.2.57
   '@types/react-dom':
     specifier: ^18.2.19
     version: 18.2.19
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
   aws-amplify:
-    specifier: ^6.0.16
-    version: 6.0.16
+    specifier: ^6.0.17
+    version: 6.0.17
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -69,12 +69,12 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@aws-amplify/analytics@7.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-K/1h/IxUBcDVjB48XTAu+rYSoQkgtYkcHwALu8hKW111Uw/mzApxiXlF/vvN71EnD1SeFmTPHoSmmjjVfFS4lA==}
+  /@aws-amplify/analytics@7.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-GNT/jyztx61FQ1Xr7V18llDRpBSFqTHk8WcshCDFm9ZQAXC1TvnpxavoKIolBeXTpPJ0L3HJ7X3TxvWnUYkYIQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/core': 6.0.17
       '@aws-sdk/client-firehose': 3.398.0
       '@aws-sdk/client-kinesis': 3.398.0
       '@aws-sdk/client-personalize-events': 3.398.0
@@ -84,11 +84,11 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-amplify/api-graphql@4.0.16:
-    resolution: {integrity: sha512-Ttx3bU6xuoVhDWqQt1x5zANo5/VaurFG3BiEyqDF2Nt0z8D4vSefQ7HVQ29S9Y9Q5X7Wcn2cSAHACUKgMgpFrw==}
+  /@aws-amplify/api-graphql@4.0.17:
+    resolution: {integrity: sha512-/3g5GJ1vvDoux1SPHzrDWghoJR101EKhUnjgt5+uS7+zcLJlT6s5mOz0unhMD5Phvtjhcc33sukoC7A7y3xAYA==}
     dependencies:
-      '@aws-amplify/api-rest': 4.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/api-rest': 4.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/core': 6.0.17
       '@aws-amplify/data-schema-types': 0.7.3
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
@@ -97,36 +97,36 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/api-rest@4.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-S7e4ySWhiZziEoF5QdBqvGMjTgQjShyEEkCHdRQUITsz6C8gwj7xrRci5mh0Szy4LKD7gyTqIcVyKMViy5GEVw==}
+  /@aws-amplify/api-rest@4.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-cpl9sIn7pJscnHmQa5LYd2gdItuWu4pJ/zjsRXXhp1/Or2iX0fxUs1r3oPEq+eDjSmDmO5c89bQbNO4spqgs0g==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/core': 6.0.17
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/api@6.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-XKutBlvPZRB6AN0JZA5S1sQbS34xKYMXQiccvC/xDUPaJyNG/I6vw6zlGO0GH6TjzGdLJBlDWann5/1W+7FUvA==}
+  /@aws-amplify/api@6.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-76PvRRhbkzenr2X5a9DNupFKu6kBmbZ0KI0yFqaqXdAMQjvtm8GrqY/1yFnMcSqHH8mlUmexYP8lKrOX5sZqmQ==}
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.16
-      '@aws-amplify/api-rest': 4.0.16(@aws-amplify/core@6.0.16)
+      '@aws-amplify/api-graphql': 4.0.17
+      '@aws-amplify/api-rest': 4.0.17(@aws-amplify/core@6.0.17)
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@aws-amplify/core'
     dev: false
 
-  /@aws-amplify/auth@6.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-s5Yi+4T6+fyLgcqQnAkBdsGKWDAQ4t5OYcSfC3EyAHeVeR6te5nTRuKGuS3cwHJmJ15SlAgL0Zkzy0m9tWjHfw==}
+  /@aws-amplify/auth@6.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-VnksOAjBRm/TskkSjkLq7rzGJItpT2oDlUIddzGlGeILAumpTpv2PX5Jx3tfqghsQpn9kXE1AP8YgpOhuVDIDw==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/core': 6.0.17
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/core@6.0.16:
-    resolution: {integrity: sha512-Y2Nq1961Qg3U67H3IsBvohknw53gsvrghFPln2JZhMtsCVyqmnVC2/P/ah4+F4AkQQTpo6ny2lKqtN0PrYFP5w==}
+  /@aws-amplify/core@6.0.17:
+    resolution: {integrity: sha512-ruQuDN6owk6z3R6baQf/JV391DkgJr6IP0n/BdiiQR+jeLLoHtQbWrMUfVR4wwyIYSPph6fH2PMvggutAkD1fw==}
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -144,13 +144,13 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@aws-amplify/datastore@5.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-jIo5VDij3uPHqZ9guOnU2taLQydBbFbwUgm/GaW47tAUeFCPgImlxOBvXk+Nae09EF37IENUsJ9Ng60UmmLVpA==}
+  /@aws-amplify/datastore@5.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-bzV24IueXIBAy4+UAi90bZeSPHcVKmUWr05Y5MCB/GzX0TibppkE0FdE3zgMXk0pRcxzmxG+Bg6dUh5Nkco4Ow==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/api': 6.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/api': 6.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/core': 6.0.17
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
@@ -158,22 +158,22 @@ packages:
       ulid: 2.3.0
     dev: false
 
-  /@aws-amplify/notifications@2.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-SrrOSH6khaeo7WuDMmHKiEq+H9D3ch6cnX2EHMoD7eCGgjLu3zsCdRwYDVUlnNTexa0t4Fb58hiSUC8WyDP2HA==}
+  /@aws-amplify/notifications@2.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-xi+cm/b3KQInD/U4f3xmxcbzqOm1kbbkF6GPG1Bt62MEnEjVQqcXOMS0zfUpa5OKp8ocaDSlZR+RQzVy6moFSQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/core': 6.0.17
       lodash: 4.17.21
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/storage@6.0.16(@aws-amplify/core@6.0.16):
-    resolution: {integrity: sha512-Ck1aHP4tD3WXAwnFQpbcadOnW2tfnOoeJWhrzDQl1UZ27zbKkEsKKF0qPa1hfg7aRLQHAsu0bR2T166ZMcMoqw==}
+  /@aws-amplify/storage@6.0.17(@aws-amplify/core@6.0.17):
+    resolution: {integrity: sha512-WUXKQ1q5BrxJtR9of7ffqQmZT/v2YaIvl7kJcQKMiTJ6Sk/lKb2lNncpaIHu4nl89j7tgCaqJiGVuB76HqybSg==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.16
+      '@aws-amplify/core': 6.0.17
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
@@ -181,15 +181,15 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/ui-react-core@3.0.10(@types/react@18.2.56)(aws-amplify@6.0.16)(react@18.2.0):
+  /@aws-amplify/ui-react-core@3.0.10(@types/react@18.2.57)(aws-amplify@6.0.17)(react@18.2.0):
     resolution: {integrity: sha512-W8xQTosEHXVIqXQzehEVIc3u99O1VeoA6EGwVQxdIL2akpniCGr0bgCVlqDC8tu6K5Tp+nM9PcAaiZymoi2PRA==}
     peerDependencies:
       aws-amplify: ^6.0.2
       react: ^16.14.0 || ^17.0 || ^18.0
     dependencies:
-      '@aws-amplify/ui': 6.0.10(aws-amplify@6.0.16)(xstate@4.38.3)
-      '@xstate/react': 3.2.2(@types/react@18.2.56)(react@18.2.0)(xstate@4.38.3)
-      aws-amplify: 6.0.16
+      '@aws-amplify/ui': 6.0.10(aws-amplify@6.0.17)(xstate@4.38.3)
+      '@xstate/react': 3.2.2(@types/react@18.2.57)(react@18.2.0)(xstate@4.38.3)
+      aws-amplify: 6.0.17
       lodash: 4.17.21
       react: 18.2.0
       react-hook-form: 7.50.1(react@18.2.0)
@@ -199,7 +199,7 @@ packages:
       - '@xstate/fsm'
     dev: false
 
-  /@aws-amplify/ui-react@6.1.4(@types/react@18.2.56)(aws-amplify@6.0.16)(react-dom@18.2.0)(react@18.2.0):
+  /@aws-amplify/ui-react@6.1.4(@types/react@18.2.57)(aws-amplify@6.0.17)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-g+ZRu7ZmKliQEQFM7KxX0PcHlIlI78t8EOeSPX8d30T8SWqfIZQ8yA985CN4oGmychi/+rxBTiawXfqrwRzMZg==}
     peerDependencies:
       aws-amplify: ^6.0.2
@@ -209,13 +209,13 @@ packages:
       aws-amplify:
         optional: true
     dependencies:
-      '@aws-amplify/ui': 6.0.10(aws-amplify@6.0.16)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.10(@types/react@18.2.56)(aws-amplify@6.0.16)(react@18.2.0)
+      '@aws-amplify/ui': 6.0.10(aws-amplify@6.0.17)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.10(@types/react@18.2.57)(aws-amplify@6.0.17)(react@18.2.0)
       '@radix-ui/react-direction': 1.0.0(react@18.2.0)
-      '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.2.0)(react@18.2.0)
-      '@xstate/react': 3.2.2(@types/react@18.2.56)(react@18.2.0)(xstate@4.38.3)
-      aws-amplify: 6.0.16
+      '@xstate/react': 3.2.2(@types/react@18.2.57)(react@18.2.0)(xstate@4.38.3)
+      aws-amplify: 6.0.17
       lodash: 4.17.21
       qrcode: 1.5.0
       react: 18.2.0
@@ -227,7 +227,7 @@ packages:
       - xstate
     dev: false
 
-  /@aws-amplify/ui@6.0.10(aws-amplify@6.0.16)(xstate@4.38.3):
+  /@aws-amplify/ui@6.0.10(aws-amplify@6.0.17)(xstate@4.38.3):
     resolution: {integrity: sha512-i9glC6Wh20ldN8BNqNHkg8KT7oHyZWt2UTSTlfRDH/doHKFAnIO/4bUES+DNoe3EYTtimvzDfCWXMNLADJvwYw==}
     peerDependencies:
       aws-amplify: ^6.0.2
@@ -236,7 +236,7 @@ packages:
       xstate:
         optional: true
     dependencies:
-      aws-amplify: 6.0.16
+      aws-amplify: 6.0.17
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -836,7 +836,7 @@ packages:
       '@floating-ui/core': 0.7.3
     dev: false
 
-  /@floating-ui/react-dom@0.7.2(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0):
+  /@floating-ui/react-dom@0.7.2(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-1T0sJcpHgX/u4I1OzIEhlcrvkUN8ln39nz7fMoE/2HDHrPiMFoOGR7++GYyfUmIQHkkrTinaeQsO3XWubjSvGg==}
     peerDependencies:
       react: '>=16.8.0'
@@ -845,7 +845,7 @@ packages:
       '@floating-ui/dom': 0.5.4
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.56)(react@18.2.0)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.57)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1113,7 +1113,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@radix-ui/react-dropdown-menu@1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0):
+  /@radix-ui/react-dropdown-menu@1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Ptben3TxPWrZLbInO7zjAK73kmjYuStsxfg6ujgt+EywJyREoibhZYnsSNqC+UiOtl4PdW/MOHhxVDtew5fouQ==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
@@ -1124,7 +1124,7 @@ packages:
       '@radix-ui/react-compose-refs': 1.0.0(react@18.2.0)
       '@radix-ui/react-context': 1.0.0(react@18.2.0)
       '@radix-ui/react-id': 1.0.0(react@18.2.0)
-      '@radix-ui/react-menu': 1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-menu': 1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-use-controllable-state': 1.0.0(react@18.2.0)
       react: 18.2.0
@@ -1166,7 +1166,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@radix-ui/react-menu@1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0):
+  /@radix-ui/react-menu@1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-icW4C64T6nHh3Z4Q1fxO1RlSShouFF4UpUmPV8FLaJZfphDljannKErDuALDx4ClRLihAPZ9i+PrLNPoWS2DMA==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
@@ -1182,7 +1182,7 @@ packages:
       '@radix-ui/react-focus-guards': 1.0.0(react@18.2.0)
       '@radix-ui/react-focus-scope': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-id': 1.0.0(react@18.2.0)
-      '@radix-ui/react-popper': 1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-popper': 1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-portal': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-presence': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -1192,19 +1192,19 @@ packages:
       aria-hidden: 1.2.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-remove-scroll: 2.5.4(@types/react@18.2.56)(react@18.2.0)
+      react-remove-scroll: 2.5.4(@types/react@18.2.57)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
 
-  /@radix-ui/react-popper@1.0.0(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0):
+  /@radix-ui/react-popper@1.0.0(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-k2dDd+1Wl0XWAMs9ZvAxxYsB9sOsEhrFQV4CINd7IUZf0wfdye4OHen9siwxvZImbzhgVeKTJi68OQmPRvVdMg==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
     dependencies:
       '@babel/runtime': 7.23.9
-      '@floating-ui/react-dom': 0.7.2(@types/react@18.2.56)(react-dom@18.2.0)(react@18.2.0)
+      '@floating-ui/react-dom': 0.7.2(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-arrow': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.0(react@18.2.0)
       '@radix-ui/react-context': 1.0.0(react@18.2.0)
@@ -1836,11 +1836,11 @@ packages:
   /@types/react-dom@18.2.19:
     resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
     dev: false
 
-  /@types/react@18.2.56:
-    resolution: {integrity: sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==}
+  /@types/react@18.2.57:
+    resolution: {integrity: sha512-ZvQsktJgSYrQiMirAN60y4O/LRevIV8hUzSOSNB6gfR3/o3wCBFQx3sPwIYtuDMeiVgsSS3UzCV26tEzgnfvQw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -2059,7 +2059,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@xstate/react@3.2.2(@types/react@18.2.56)(react@18.2.0)(xstate@4.38.3):
+  /@xstate/react@3.2.2(@types/react@18.2.57)(react@18.2.0)(xstate@4.38.3):
     resolution: {integrity: sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==}
     peerDependencies:
       '@xstate/fsm': ^2.0.0
@@ -2072,7 +2072,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.56)(react@18.2.0)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.57)(react@18.2.0)
       use-sync-external-store: 1.2.0(react@18.2.0)
       xstate: 4.38.3
     transitivePeerDependencies:
@@ -2273,21 +2273,23 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /available-typed-arrays@1.0.6:
-    resolution: {integrity: sha512-j1QzY8iPNPG4o4xmO3ptzpRxTciqD3MgEHtifP/YnJpIo58Xu+ne4BejlbkuaLfXn/nz6HFiw29bLpj2PNMdGg==}
+  /available-typed-arrays@1.0.7:
+    resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
+    dependencies:
+      possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-amplify@6.0.16:
-    resolution: {integrity: sha512-6pJti0sju6+GNZ/f68XK0DPVdpXMYCnfaVZgGOwqkp81f3I0kkleNFqXltFCLB+en7GGsX7E7HGmtnJb1RziOQ==}
+  /aws-amplify@6.0.17:
+    resolution: {integrity: sha512-57tFeE89XsVIe+2zusu4SDXHMGkUbc5vs4hHahDimkMYaiQJFSJWZ7yhMVVmfL9sCEG8BQXUxp4q46qZkANOJw==}
     dependencies:
-      '@aws-amplify/analytics': 7.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/api': 6.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/auth': 6.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/core': 6.0.16
-      '@aws-amplify/datastore': 5.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/notifications': 2.0.16(@aws-amplify/core@6.0.16)
-      '@aws-amplify/storage': 6.0.16(@aws-amplify/core@6.0.16)
+      '@aws-amplify/analytics': 7.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/api': 6.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/auth': 6.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/core': 6.0.17
+      '@aws-amplify/datastore': 5.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/notifications': 2.0.17(@aws-amplify/core@6.0.17)
+      '@aws-amplify/storage': 6.0.17(@aws-amplify/core@6.0.17)
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -2347,7 +2349,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.674
+      electron-to-chromium: 1.4.677
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: false
@@ -2623,8 +2625,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.674:
-    resolution: {integrity: sha512-jZtIZxv9FlwTLX5kVZStUtXZywhEi3vqvY6iEzJnc57cNgHFQ5JCczElTs/062v6ODTT7eX8ZOTqQcxa3nMUWQ==}
+  /electron-to-chromium@1.4.677:
+    resolution: {integrity: sha512-erDa3CaDzwJOpyvfKhOiJjBVNnMM0qxHq47RheVVwsSQrgBA9ZSGV9kdaOfZDPXcHzhG7lBxhj6A7KvfLJBd6Q==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -2653,7 +2655,7 @@ packages:
     dependencies:
       array-buffer-byte-length: 1.0.1
       arraybuffer.prototype.slice: 1.0.3
-      available-typed-arrays: 1.0.6
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       es-define-property: 1.0.0
       es-errors: 1.3.0
@@ -2665,13 +2667,13 @@ packages:
       globalthis: 1.0.3
       gopd: 1.0.1
       has-property-descriptors: 1.0.2
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       has-symbols: 1.0.3
       hasown: 2.0.1
       internal-slot: 1.0.7
       is-array-buffer: 3.0.4
       is-callable: 1.2.7
-      is-negative-zero: 2.0.2
+      is-negative-zero: 2.0.3
       is-regex: 1.1.4
       is-shared-array-buffer: 1.0.2
       is-string: 1.0.7
@@ -2686,10 +2688,10 @@ packages:
       string.prototype.trim: 1.2.8
       string.prototype.trimend: 1.0.7
       string.prototype.trimstart: 1.0.7
-      typed-array-buffer: 1.0.1
+      typed-array-buffer: 1.0.2
       typed-array-byte-length: 1.0.0
-      typed-array-byte-offset: 1.0.1
-      typed-array-length: 1.0.4
+      typed-array-byte-offset: 1.0.2
+      typed-array-length: 1.0.5
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.14
     dev: false
@@ -2724,7 +2726,7 @@ packages:
       get-intrinsic: 1.2.4
       globalthis: 1.0.3
       has-property-descriptors: 1.0.2
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       has-symbols: 1.0.3
       internal-slot: 1.0.7
       iterator.prototype: 1.1.2
@@ -3181,13 +3183,13 @@ packages:
     resolution: {integrity: sha512-CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.2.9
+      flatted: 3.3.0
       keyv: 4.5.4
       rimraf: 3.0.2
     dev: false
 
-  /flatted@3.2.9:
-    resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
+  /flatted@3.3.0:
+    resolution: {integrity: sha512-noqGuLw158+DuD9UPRKHpJ2hGxpFyDlYYrfM0mWt4XhT4n0lwzTLh70Tkdyy4kyTmyTT9Bv7bWAJqw7cgkEXDg==}
     dev: false
 
   /for-each@0.3.3:
@@ -3258,7 +3260,7 @@ packages:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       has-symbols: 1.0.3
       hasown: 2.0.1
     dev: false
@@ -3380,8 +3382,8 @@ packages:
       es-define-property: 1.0.0
     dev: false
 
-  /has-proto@1.0.1:
-    resolution: {integrity: sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==}
+  /has-proto@1.0.3:
+    resolution: {integrity: sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==}
     engines: {node: '>= 0.4'}
     dev: false
 
@@ -3555,8 +3557,8 @@ packages:
     resolution: {integrity: sha512-cOZFQQozTha1f4MxLFzlgKYPTyj26picdZTx82hbc/Xf4K/tZOOXSCkMvU4pKioRXGDLJRn0GM7Upe7kR721yg==}
     dev: false
 
-  /is-negative-zero@2.0.2:
-    resolution: {integrity: sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==}
+  /is-negative-zero@2.0.3:
+    resolution: {integrity: sha512-5KoIu2Ngpyek75jXodFvnafB6DJgr3u8uuK0LEZJjrU19DrMD3EVERaR8sjz8CCGgpZvxPl9SuE1GMVPFHx1mw==}
     engines: {node: '>= 0.4'}
     dev: false
 
@@ -3652,7 +3654,7 @@ packages:
       get-intrinsic: 1.2.4
       has-symbols: 1.0.3
       reflect.getprototypeof: 1.0.5
-      set-function-name: 2.0.1
+      set-function-name: 2.0.2
     dev: false
 
   /jackspeak@2.3.6:
@@ -4147,6 +4149,11 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
+  /possible-typed-array-names@1.0.0:
+    resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
+    engines: {node: '>= 0.4'}
+    dev: false
+
   /postcss-import@15.1.0(postcss@8.4.35):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
@@ -4282,7 +4289,7 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-remove-scroll-bar@2.3.5(@types/react@18.2.56)(react@18.2.0):
+  /react-remove-scroll-bar@2.3.5(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-3cqjOqg6s0XbOjWvmasmqHch+RLxIEk2r/70rzGXuz3iIGQsQheEQyqYCBb5EECoD01Vo2SIbDqW4paLeLTASw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4292,13 +4299,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       react: 18.2.0
-      react-style-singleton: 2.2.1(@types/react@18.2.56)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.57)(react@18.2.0)
       tslib: 2.6.2
     dev: false
 
-  /react-remove-scroll@2.5.4(@types/react@18.2.56)(react@18.2.0):
+  /react-remove-scroll@2.5.4(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-xGVKJJr0SJGQVirVFAUZ2k1QLyO6m+2fy0l8Qawbp5Jgrv3DeLalrfMNBFSlmz5kriGGzsVBtGVnf4pTKIhhWA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4308,16 +4315,16 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       react: 18.2.0
-      react-remove-scroll-bar: 2.3.5(@types/react@18.2.56)(react@18.2.0)
-      react-style-singleton: 2.2.1(@types/react@18.2.56)(react@18.2.0)
+      react-remove-scroll-bar: 2.3.5(@types/react@18.2.57)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.57)(react@18.2.0)
       tslib: 2.6.2
-      use-callback-ref: 1.3.1(@types/react@18.2.56)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.56)(react@18.2.0)
+      use-callback-ref: 1.3.1(@types/react@18.2.57)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.57)(react@18.2.0)
     dev: false
 
-  /react-style-singleton@2.2.1(@types/react@18.2.56)(react@18.2.0):
+  /react-style-singleton@2.2.1(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4327,7 +4334,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
@@ -4378,7 +4385,7 @@ packages:
       call-bind: 1.0.7
       define-properties: 1.2.1
       es-errors: 1.3.0
-      set-function-name: 2.0.1
+      set-function-name: 2.0.2
     dev: false
 
   /require-directory@2.1.1:
@@ -4503,11 +4510,12 @@ packages:
       has-property-descriptors: 1.0.2
     dev: false
 
-  /set-function-name@2.0.1:
-    resolution: {integrity: sha512-tMNCiqYVkXIZgc2Hnoy2IvC/f8ezc5koaRFkCjrpWzGpCd3qbZXPzVy9MAZzK1ch/X0jvSkojys3oqJN0qCmdA==}
+  /set-function-name@2.0.2:
+    resolution: {integrity: sha512-7PGFlmtwsEADb0WYyvCMa1t+yke6daIG4Wirafur5kcf+MhUnPms1UeR0CKQdTZD81yESwMHbtn+TR+dMviakQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.4
+      es-errors: 1.3.0
       functions-have-names: 1.2.3
       has-property-descriptors: 1.0.2
     dev: false
@@ -4589,7 +4597,7 @@ packages:
       has-symbols: 1.0.3
       internal-slot: 1.0.7
       regexp.prototype.flags: 1.5.2
-      set-function-name: 2.0.1
+      set-function-name: 2.0.2
       side-channel: 1.0.5
     dev: false
 
@@ -4811,8 +4819,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /typed-array-buffer@1.0.1:
-    resolution: {integrity: sha512-RSqu1UEuSlrBhHTWC8O9FnPjOduNs4M7rJ4pRKoEjtx1zUNOPN2sSXHLDX+Y2WPbHIxbvg4JFo2DNAEfPIKWoQ==}
+  /typed-array-buffer@1.0.2:
+    resolution: {integrity: sha512-gEymJYKZtKXzzBzM4jqa9w6Q1Jjm7x2d+sh19AdsD4wqnMPDYyvwpsIc2Q/835kHuo3BEQ7CjelGhfTsoBb2MQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
@@ -4826,28 +4834,32 @@ packages:
     dependencies:
       call-bind: 1.0.7
       for-each: 0.3.3
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       is-typed-array: 1.1.13
     dev: false
 
-  /typed-array-byte-offset@1.0.1:
-    resolution: {integrity: sha512-tcqKMrTRXjqvHN9S3553NPCaGL0VPgFI92lXszmrE8DMhiDPLBYLlvo8Uu4WZAAX/aGqp/T1sbA4ph8EWjDF9Q==}
+  /typed-array-byte-offset@1.0.2:
+    resolution: {integrity: sha512-Ous0vodHa56FviZucS2E63zkgtgrACj7omjwd/8lTEMEPFFyjfixMZ1ZXenpgCFBBt4EC1J2XsyVS2gkG0eTFA==}
     engines: {node: '>= 0.4'}
     dependencies:
-      available-typed-arrays: 1.0.6
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       is-typed-array: 1.1.13
     dev: false
 
-  /typed-array-length@1.0.4:
-    resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
+  /typed-array-length@1.0.5:
+    resolution: {integrity: sha512-yMi0PlwuznKHxKmcpoOdeLwxBoVPkqZxd7q2FgMkmD3bNwvF5VW0+UlUQ1k1vmktTu4Yu13Q0RIxEP8+B+wloA==}
+    engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
       for-each: 0.3.3
+      gopd: 1.0.1
+      has-proto: 1.0.3
       is-typed-array: 1.1.13
+      possible-typed-array-names: 1.0.0
     dev: false
 
   /typescript@5.3.3:
@@ -4908,7 +4920,7 @@ packages:
       punycode: 2.3.1
     dev: false
 
-  /use-callback-ref@1.3.1(@types/react@18.2.56)(react@18.2.0):
+  /use-callback-ref@1.3.1(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-Lg4Vx1XZQauB42Hw3kK7JM6yjVjgFmFC5/Ab797s79aARomD2nEErc4mCgM8EZrARLmmbWpi5DGCadmK50DcAQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4918,12 +4930,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       react: 18.2.0
       tslib: 2.6.2
     dev: false
 
-  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.56)(react@18.2.0):
+  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
@@ -4932,11 +4944,11 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       react: 18.2.0
     dev: false
 
-  /use-sidecar@1.1.2(@types/react@18.2.56)(react@18.2.0):
+  /use-sidecar@1.1.2(@types/react@18.2.57)(react@18.2.0):
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4946,7 +4958,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
@@ -5019,7 +5031,7 @@ packages:
     resolution: {integrity: sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      available-typed-arrays: 1.0.6
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
