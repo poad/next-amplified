@@ -9,8 +9,8 @@ dependencies:
     specifier: ^6.1.4
     version: 6.1.4(@types/react@18.2.57)(aws-amplify@6.0.17)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: ^20.11.19
-    version: 20.11.19
+    specifier: ^20.11.20
+    version: 20.11.20
   '@types/react':
     specifier: ^18.2.57
     version: 18.2.57
@@ -89,7 +89,7 @@ packages:
     dependencies:
       '@aws-amplify/api-rest': 4.0.17(@aws-amplify/core@6.0.17)
       '@aws-amplify/core': 6.0.17
-      '@aws-amplify/data-schema-types': 0.7.3
+      '@aws-amplify/data-schema-types': 0.7.5
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -138,8 +138,8 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/data-schema-types@0.7.3:
-    resolution: {integrity: sha512-C9RKp83oEgvHMRaWhToBhMeK3Ij7XfwGgf1wH5O/xSClrrKzOyO9Cccq8JyFRlJZdnzgBMSBeNa3bGwbjsOYlg==}
+  /@aws-amplify/data-schema-types@0.7.5:
+    resolution: {integrity: sha512-C6kd+w1/D/+SEyFa7a/SaOwfNK4lewsSM54Lm8KozDDLNWtVTYcMieDy4Gw+S4O/J/7u3cF40regAnh2x/jGtg==}
     dependencies:
       rxjs: 7.8.1
     dev: false
@@ -1823,8 +1823,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node@20.11.19:
-    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
+  /@types/node@20.11.20:
+    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
     dependencies:
       undici-types: 5.26.5
     dev: false
