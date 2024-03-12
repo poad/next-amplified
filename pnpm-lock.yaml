@@ -348,7 +348,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -395,7 +395,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       '@smithy/util-waiter': 2.1.4
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -440,7 +440,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -481,7 +481,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -525,7 +525,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -715,7 +715,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.7
       '@smithy/util-defaults-mode-node': 2.2.7
       '@smithy/util-retry': 2.1.4
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
