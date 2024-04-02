@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^6.1.6",
     "@types/node": "^20.12.2",
-    "@types/react": "^18.2.73",
+    "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "autoprefixer": "^10.4.19",
