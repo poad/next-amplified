@@ -382,7 +382,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -429,7 +429,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       '@smithy/util-waiter': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -474,7 +474,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -515,7 +515,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -559,7 +559,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -749,7 +749,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -2300,7 +2300,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001605
+      caniuse-lite: 1.0.30001606
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2409,8 +2409,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001605
-      electron-to-chromium: 1.4.727
+      caniuse-lite: 1.0.30001606
+      electron-to-chromium: 1.4.728
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: false
@@ -2463,8 +2463,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite@1.0.30001605:
-    resolution: {integrity: sha512-nXwGlFWo34uliI9z3n6Qc0wZaf7zaZWA1CPZ169La5mV3I/gem7bst0vr5XQH5TJXZIMfDeZyOrZnSlVzKxxHQ==}
+  /caniuse-lite@1.0.30001606:
+    resolution: {integrity: sha512-LPbwnW4vfpJId225pwjZJOgX1m9sGfbw/RKJvw/t0QhYOOaTXHvkjVGFGPpvwEzufrjvTlsULnVTxdy4/6cqkg==}
     dev: false
 
   /capital-case@1.0.4:
@@ -2718,8 +2718,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.727:
-    resolution: {integrity: sha512-brpv4KTeC4g0Fx2FeIKytLd4UGn1zBQq5Lauy7zEWT9oqkaj5mgsxblEZIAOf1HHLlXxzr6adGViiBy5Z39/CA==}
+  /electron-to-chromium@1.4.728:
+    resolution: {integrity: sha512-Ud1v7hJJYIqehlUJGqR6PF1Ek8l80zWwxA6nGxigBsGJ9f9M2fciHyrIiNMerSHSH3p+0/Ia7jIlnDkt41h5cw==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -4032,7 +4032,7 @@ packages:
       '@next/env': 14.1.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001605
+      caniuse-lite: 1.0.30001606
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
