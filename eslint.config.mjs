@@ -1,37 +1,72 @@
-import nextPlugin from '@next/eslint-plugin-next';
-import reactPlugin from 'eslint-plugin-react';
-import hooksPlugin from 'eslint-plugin-react-hooks';
-import typescriptParser from '@typescript-eslint/parser';
+// @ts-check
 
-export default [
+import eslint from '@eslint/js';
+import nextPlugin from '@next/eslint-plugin-next';
+import importPlugin from 'eslint-plugin-import';
+
+import tseslint from 'typescript-eslint';
+import { FlatCompat } from '@eslint/eslintrc';
+
+const compat = new FlatCompat();
+
+export default tseslint.config(
   {
-    languageOptions: {
-      parser: typescriptParser,
-    },
-    files: ['**/*.ts', '**/*.tsx'],
     ignores: [
       '**/*.d.ts',
-      '*.js',
+      '*.{js,jsx}',
       'src/tsconfig.json',
-      'src/next-env.d.ts',
-      'src/stories',
+      '**/*.css',
       'node_modules/**/*',
+      '.next',
+      'out',
     ],
+  },
+  {
+    files: ['src/**/*.{jsx,ts,tsx}'],
+  },
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
+  {
+    files: ['src/**/*.{ts,tsx}'],
     plugins: {
-      react: reactPlugin,
-      'react-hooks': hooksPlugin,
+      import: importPlugin,
+    },
+    extends: [
+      ...tseslint.configs.recommended,
+      ...compat.config(importPlugin.configs.recommended),
+      ...compat.config(importPlugin.configs.typescript),
+    ],
+    settings: {
+      'import/internal-regex': '^~/',
+      'import/resolver': {
+        node: {
+          extensions: ['.ts', '.tsx'],
+        },
+        typescript: {
+          alwaysTryTypes: true,
+        },
+      },
+    },
+  },
+  {
+    files: ['src/**/*.{js,jsx,ts,tsx}'],
+    plugins: {
       '@next/next': nextPlugin,
     },
     rules: {
-      ...reactPlugin.configs['jsx-runtime'].rules,
-      ...hooksPlugin.configs.recommended.rules,
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
       '@next/next/no-duplicate-head': 'off',
       '@next/next/no-img-element': 'error',
+      '@next/next/no-page-custom-font': 'off',
     },
   },
   {
-    ignores: ['./.next/*'],
+    rules: {
+      'react/display-name': 'off',
+      'import/namespace': 'off',
+      'import/no-named-as-default': 'off',
+      'import/no-named-as-default-member': 'off',
+    },
   },
-];
+);
