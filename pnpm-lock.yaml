@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@aws-amplify/ui-react':
-        specifier: ^6.1.9
-        version: 6.1.9(@types/react@18.3.2)(aws-amplify@6.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
+        specifier: ^6.1.10
+        version: 6.1.10(@types/react@18.3.2)(aws-amplify@6.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
       '@types/node':
         specifier: ^20.12.12
         version: 20.12.12
@@ -24,8 +24,8 @@ importers:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
       aws-amplify:
-        specifier: ^6.3.1
-        version: 6.3.1
+        specifier: ^6.3.2
+        version: 6.3.2
       eslint:
         specifier: ^9.2.0
         version: 9.2.0
@@ -82,8 +82,8 @@ packages:
   '@aws-amplify/api@6.0.33':
     resolution: {integrity: sha512-kKkKG7MWccqgYiiIM8UCtToQFHVoDJ1PKPd/LB1DqudGkr314KGwnVI+x84jUijfBmN/VAsuwMUxzUst4bsHRw==}
 
-  '@aws-amplify/auth@6.3.1':
-    resolution: {integrity: sha512-mCLYMFBOS+yhinWyDL+IlJr26fPMm5aW1Sp9sH4qZYBM4vnJFeWQqTZYlPQ1noH+7kDY1Y0KYQqNEVkmJhVJ2w==}
+  '@aws-amplify/auth@6.3.2':
+    resolution: {integrity: sha512-IS6wWo16eaQcVeD8KJ5twcELprcQyYZw3N3wFJ2h19XlWf069vzb+M4/fJsDLxKcapaeboZkc9OtrCAe2dCLuw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
@@ -93,8 +93,8 @@ packages:
   '@aws-amplify/data-schema-types@1.0.1':
     resolution: {integrity: sha512-+hRNzVuVkhjLl7Oxcse087y/PYKSjCETHE0KnRNYzQy5f/dzYw1sE8ui76bk5TR2O+vs7f8P42Ti90sWOgSzSQ==}
 
-  '@aws-amplify/data-schema@1.2.1':
-    resolution: {integrity: sha512-jZoZUEvvIWam6NhhHJOCeE1chJUwmU1KQC2nSaX9Pv5UkIu1qjJRlPh15AnzAtdJh5WOVVPLdPtiV9DC2KwTDA==}
+  '@aws-amplify/data-schema@1.2.2':
+    resolution: {integrity: sha512-FIWfboaCtz4JEM8BZEfkt/IHIyyduteqOKDKR1aRCNgI3pxYhbYduOZiphoGjqi7KqtgbPnriSv6vcLo/rCwpw==}
 
   '@aws-amplify/datastore@5.0.33':
     resolution: {integrity: sha512-The1jWh5oQaO7/b284NyYBDF20wqtIyza7qjBf73T3+kTkIviNlSN9hYcFeQWjzmqn/7ScUQGePG6uVWMd3lSQ==}
@@ -111,14 +111,14 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/ui-react-core@3.0.14':
-    resolution: {integrity: sha512-p3/W94jYP/TZqKx1eKmFSRniPAP9ViVyEScJZkAkApVPg4d3XADJ80k6MqYvXFlx58fSoDqfX3rnc7TK5Q7ekQ==}
+  '@aws-amplify/ui-react-core@3.0.15':
+    resolution: {integrity: sha512-xuWR063a37pXPf0ohqDX9vvILlMqIlScUXB4vWlamlUQZiLK3Je33fNt8bxOGegzFVvFk25/hIQU6j09jJ5yLw==}
     peerDependencies:
       aws-amplify: ^6.2.0
       react: ^16.14.0 || ^17.0 || ^18.0
 
-  '@aws-amplify/ui-react@6.1.9':
-    resolution: {integrity: sha512-8/nN8aAPGuCafzehv8hT9G9mWmc/D0ZENIzMV8U1Sd4cbT9mUbjjTToMUlnaYesGXmGGTrS6/JiThVMUcOBecA==}
+  '@aws-amplify/ui-react@6.1.10':
+    resolution: {integrity: sha512-LAFympPAlPXdeMHvt6QPSZZRvm72jKwAvMNdvnei0quz6QhKMaYWxtmMEWQmukXVGexif3z0ej9qSWPyPp9a3g==}
     peerDependencies:
       aws-amplify: ^6.2.0
       react: ^16.14.0 || ^17.0 || ^18.0
@@ -127,8 +127,8 @@ packages:
       aws-amplify:
         optional: true
 
-  '@aws-amplify/ui@6.0.14':
-    resolution: {integrity: sha512-JilA2h1OtIp/qWz8sydWtW52CAr6C+ydtPB/tzUW8NeBvXG+UBo/dSdQznYLJ9ATwqc+njbiN/C0j/zX5K+NKg==}
+  '@aws-amplify/ui@6.0.15':
+    resolution: {integrity: sha512-SOcr/3XfXG1rQfDbhS1EcOoliDVcd8LYHNkJVgHS78msBFq+PErbO2K/HeXC7JkXx8Nwt4xnc3PDZXzCpdlU6w==}
     peerDependencies:
       aws-amplify: ^6.2.0
       xstate: ^4.33.6
@@ -971,8 +971,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.3.1:
-    resolution: {integrity: sha512-fA2okjsJLjd46V8JxO/VCuJKj1N81dQSueFS7KNcEUL6YFCZWkaYXDrIPIynik8xCU4psX0AwztcmQqoty2cNA==}
+  aws-amplify@6.3.2:
+    resolution: {integrity: sha512-vjpw3UhC87wsqOzV3KlWLUf88ddRpJt1ZLdzAGKxTzftysFwCtEDnZ8/ICrfRVEvXvfex3q8qriPTWTnE6Ni6w==}
 
   axe-core@4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
@@ -1035,8 +1035,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001618:
-    resolution: {integrity: sha512-p407+D1tIkDvsEAPS22lJxLQQaG8OTBEqo0KhzfABGk0TU4juBNDSfH0hyAp/HRyx+M8L17z/ltyhxh27FTfQg==}
+  caniuse-lite@1.0.30001620:
+    resolution: {integrity: sha512-WJvYsOjd1/BYUY6SNGUosK9DUidBPDTnOARHp3fSmFO1ekdxaY6nKRttEVrfMmYi80ctS0kz1wiWmm14fVc3ew==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -1168,8 +1168,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.767:
-    resolution: {integrity: sha512-nzzHfmQqBss7CE3apQHkHjXW77+8w3ubGCIoEijKCJebPufREaFETgGXWTkh32t259F3Kcq+R8MZdFdOJROgYw==}
+  electron-to-chromium@1.4.772:
+    resolution: {integrity: sha512-jFfEbxR/abTTJA3ci+2ok1NTuOBBtB4jH+UT6PUmRN+DY3WSD4FFRsgoVQ+QNIJ0T7wrXwzsWCI2WKC46b++2A==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2326,8 +2326,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  update-browserslist-db@1.0.15:
-    resolution: {integrity: sha512-K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA==}
+  update-browserslist-db@1.0.16:
+    resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -2463,7 +2463,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.31(@aws-amplify/core@6.2.1)
       '@aws-amplify/core': 6.2.1
-      '@aws-amplify/data-schema': 1.2.1
+      '@aws-amplify/data-schema': 1.2.2
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -2483,7 +2483,7 @@ snapshots:
     transitivePeerDependencies:
       - '@aws-amplify/core'
 
-  '@aws-amplify/auth@6.3.1(@aws-amplify/core@6.2.1)':
+  '@aws-amplify/auth@6.3.2(@aws-amplify/core@6.2.1)':
     dependencies:
       '@aws-amplify/core': 6.2.1
       tslib: 2.6.2
@@ -2504,7 +2504,7 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.2.1':
+  '@aws-amplify/data-schema@1.2.2':
     dependencies:
       '@aws-amplify/data-schema-types': 1.0.1
       '@types/aws-lambda': 8.10.137
@@ -2535,11 +2535,11 @@ snapshots:
       fast-xml-parser: 4.3.6
       tslib: 2.6.2
 
-  '@aws-amplify/ui-react-core@3.0.14(@types/react@18.3.2)(aws-amplify@6.3.1)(react@18.3.1)':
+  '@aws-amplify/ui-react-core@3.0.15(@types/react@18.3.2)(aws-amplify@6.3.2)(react@18.3.1)':
     dependencies:
-      '@aws-amplify/ui': 6.0.14(aws-amplify@6.3.1)(xstate@4.38.3)
+      '@aws-amplify/ui': 6.0.15(aws-amplify@6.3.2)(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@18.3.2)(react@18.3.1)(xstate@4.38.3)
-      aws-amplify: 6.3.1
+      aws-amplify: 6.3.2
       lodash: 4.17.21
       react: 18.3.1
       react-hook-form: 7.51.4(react@18.3.1)
@@ -2548,10 +2548,10 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.1.9(@types/react@18.3.2)(aws-amplify@6.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.1.10(@types/react@18.3.2)(aws-amplify@6.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/ui': 6.0.14(aws-amplify@6.3.1)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.14(@types/react@18.3.2)(aws-amplify@6.3.1)(react@18.3.1)
+      '@aws-amplify/ui': 6.0.15(aws-amplify@6.3.2)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.15(@types/react@18.3.2)(aws-amplify@6.3.2)(react@18.3.1)
       '@radix-ui/react-direction': 1.0.0(react@18.3.1)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2562,15 +2562,15 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.6.2
     optionalDependencies:
-      aws-amplify: 6.3.1
+      aws-amplify: 6.3.2
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.0.14(aws-amplify@6.3.1)(xstate@4.38.3)':
+  '@aws-amplify/ui@6.0.15(aws-amplify@6.3.2)(xstate@4.38.3)':
     dependencies:
-      aws-amplify: 6.3.1
+      aws-amplify: 6.3.2
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -3954,7 +3954,7 @@ snapshots:
   autoprefixer@10.4.19(postcss@8.4.38):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001620
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -3965,11 +3965,11 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.3.1:
+  aws-amplify@6.3.2:
     dependencies:
       '@aws-amplify/analytics': 7.0.31(@aws-amplify/core@6.2.1)
       '@aws-amplify/api': 6.0.33(@aws-amplify/core@6.2.1)
-      '@aws-amplify/auth': 6.3.1(@aws-amplify/core@6.2.1)
+      '@aws-amplify/auth': 6.3.2(@aws-amplify/core@6.2.1)
       '@aws-amplify/core': 6.2.1
       '@aws-amplify/datastore': 5.0.33(@aws-amplify/core@6.2.1)
       '@aws-amplify/notifications': 2.0.31(@aws-amplify/core@6.2.1)
@@ -4007,10 +4007,10 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001618
-      electron-to-chromium: 1.4.767
+      caniuse-lite: 1.0.30001620
+      electron-to-chromium: 1.4.772
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.15(browserslist@4.23.0)
+      update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
   buffer@4.9.2:
     dependencies:
@@ -4041,7 +4041,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001618: {}
+  caniuse-lite@1.0.30001620: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -4186,7 +4186,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.767: {}
+  electron-to-chromium@1.4.772: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4969,7 +4969,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001620
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
@@ -5568,7 +5568,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  update-browserslist-db@1.0.15(browserslist@4.23.0):
+  update-browserslist-db@1.0.16(browserslist@4.23.0):
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
