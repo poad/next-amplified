@@ -93,8 +93,8 @@ packages:
   '@aws-amplify/data-schema-types@1.0.1':
     resolution: {integrity: sha512-+hRNzVuVkhjLl7Oxcse087y/PYKSjCETHE0KnRNYzQy5f/dzYw1sE8ui76bk5TR2O+vs7f8P42Ti90sWOgSzSQ==}
 
-  '@aws-amplify/data-schema@1.2.9':
-    resolution: {integrity: sha512-UqgX2a2yy9SZUsuyT6O/v1Bav3LmjvZHtc4yoVK2Vq80zki0pxLmDywSZvxtm776LfmtWV3a3ZNefEC+BnabtQ==}
+  '@aws-amplify/data-schema@1.3.0':
+    resolution: {integrity: sha512-jnW9NSl9W49IvWZ09p1GdPH9qH1w/12mWFQXe+bETgmvKfyebLfO8y+IpJg7BSdE1XIdP2lZTMSmbpSHJNTsng==}
 
   '@aws-amplify/datastore@5.0.35':
     resolution: {integrity: sha512-DpJSzKqv5sj4SQLOkO63zsgyFVtrYP5yshKDEz3H2WJhSlDt8N9HvmCHUwRncaFD/WBzSuM/U9k8okrlp2WzBw==}
@@ -2467,7 +2467,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.33(@aws-amplify/core@6.3.1)
       '@aws-amplify/core': 6.3.1
-      '@aws-amplify/data-schema': 1.2.9
+      '@aws-amplify/data-schema': 1.3.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -2508,7 +2508,7 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.2.9':
+  '@aws-amplify/data-schema@1.3.0':
     dependencies:
       '@aws-amplify/data-schema-types': 1.0.1
       '@types/aws-lambda': 8.10.138
