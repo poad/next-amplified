@@ -1182,8 +1182,8 @@ packages:
   encode-utf8@1.0.3:
     resolution: {integrity: sha512-ucAnuBEhUK4boH2HjVYG5Q2mQyPorvv0u/ocS+zhdw0S8AlHYY+GOFhP1Gio5z4icpP2ivFSvhtFjQi8+T9ppw==}
 
-  enhanced-resolve@5.16.1:
-    resolution: {integrity: sha512-4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==}
+  enhanced-resolve@5.17.0:
+    resolution: {integrity: sha512-dwDPwZL0dmye8Txp2gzFmA6sxALaSvdRDjPH0viLcKrtlOL3tw62nWWweVD1SdILDTJrbrL6tdWVN58Wo6U3eA==}
     engines: {node: '>=10.13.0'}
 
   es-abstract@1.23.3:
@@ -4200,7 +4200,7 @@ snapshots:
 
   encode-utf8@1.0.3: {}
 
-  enhanced-resolve@5.16.1:
+  enhanced-resolve@5.17.0:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.2.1
@@ -4330,7 +4330,7 @@ snapshots:
   eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.4.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.4.0):
     dependencies:
       debug: 4.3.5
-      enhanced-resolve: 5.16.1
+      enhanced-resolve: 5.17.0
       eslint: 9.4.0
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.4.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.4.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.4.0))(eslint@9.4.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.4.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.1)(eslint@9.4.0)
