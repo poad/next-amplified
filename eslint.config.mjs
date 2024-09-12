@@ -2,12 +2,10 @@
 
 import eslint from '@eslint/js';
 import nextPlugin from '@next/eslint-plugin-next';
+// @ts-expect-error ignore type errors
 import importPlugin from 'eslint-plugin-import';
 
 import tseslint from 'typescript-eslint';
-import { FlatCompat } from '@eslint/eslintrc';
-
-const compat = new FlatCompat();
 
 export default tseslint.config(
   {
@@ -21,21 +19,16 @@ export default tseslint.config(
       'out',
     ],
   },
+  eslint.configs.recommended,
+  ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
   {
     files: ['src/**/*.{jsx,ts,tsx}'],
-  },
-  eslint.configs.recommended,
-  ...tseslint.configs.recommended,
-  {
-    files: ['src/**/*.{ts,tsx}'],
+    ...importPlugin.flatConfigs.recommended,
+    ...importPlugin.flatConfigs.typescript,
     plugins: {
-      import: importPlugin,
+      '@next/next': nextPlugin,
     },
-    extends: [
-      ...tseslint.configs.recommended,
-      ...compat.config(importPlugin.configs.recommended),
-      ...compat.config(importPlugin.configs.typescript),
-    ],
     settings: {
       'import/internal-regex': '^~/',
       'import/resolver': {
@@ -47,22 +40,12 @@ export default tseslint.config(
         },
       },
     },
-  },
-  {
-    files: ['src/**/*.{js,jsx,ts,tsx}'],
-    plugins: {
-      '@next/next': nextPlugin,
-    },
     rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
       '@next/next/no-duplicate-head': 'off',
       '@next/next/no-img-element': 'error',
       '@next/next/no-page-custom-font': 'off',
-    },
-  },
-  {
-    rules: {
       'react/display-name': 'off',
       'import/namespace': 'off',
       'import/no-named-as-default': 'off',
