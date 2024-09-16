@@ -12,7 +12,7 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^6.3.1",
     "@types/node": "^22.5.5",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "aws-amplify": "^6.6.0",
