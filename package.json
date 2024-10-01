@@ -15,7 +15,7 @@
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
-    "aws-amplify": "^6.6.2",
+    "aws-amplify": "^6.6.3",
     "eslint": "^9.11.1",
     "eslint-config-next": "^14.2.13",
     "eslint-plugin-import": "^2.30.0",
