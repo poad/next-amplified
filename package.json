@@ -10,17 +10,17 @@
     "lint-fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.9.0",
+    "@aws-amplify/ui-react": "^6.9.1",
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
     "aws-amplify": "^6.12.1",
     "eslint": "^9.18.0",
-    "eslint-config-next": "^15.1.5",
+    "eslint-config-next": "^15.1.6",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.4",
-    "next": "^15.1.5",
+    "next": "^15.1.6",
     "postcss": "^8.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.18.0",
-    "@next/eslint-plugin-next": "^15.1.5",
+    "@next/eslint-plugin-next": "^15.1.6",
     "pnpm": "^10.0.0"
   }
 }
